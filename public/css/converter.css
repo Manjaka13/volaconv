@@ -1,0 +1,104 @@
+.converter {
+	width: 100%;
+	padding-top: 40px;
+}
+
+.converter__box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: white;
+	height: 300px;
+	border-radius: 10px;
+}
+
+.converter__title {
+	font-size: 1.5em;
+	padding: 20px;
+	padding-bottom: 0;
+	width: calc(100% - 40px);
+}
+
+.converter__group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: calc(100% - 40px);
+	flex-grow: 1;
+	margin: 20px 0;
+}
+
+.converter__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 1;
+	height: 100%;
+	border-radius: 20px;
+	margin-right: 20px;
+}
+
+.converter__item:first-of-type {
+	background: rgb(60 69 175);
+}
+
+.converter__item:last-of-type {
+	background: rgb(190, 50, 202);
+}
+
+.converter__convert {
+	padding: 20px;
+	border-radius: 10px;
+	background: rgb(14 104 16);
+	border: none;
+	font-size: 1.3em;
+	color: white;
+	cursor: pointer;
+}
+
+.converter .currency-full-name {
+	color: white;
+	padding: 20px 0;
+	font-weight: bold;
+	text-align: left;
+	width: calc(100% - 40px);
+	background: transparent;
+	border: none;
+	font-size: 1em;
+}
+
+.converter .separator {
+	width: calc(100% - 40px);
+	height: 1px;
+	margin: 0 20px;
+	background: white;
+}
+
+.converter .form {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	width: calc(100% - 40px);
+	margin: 20px;
+}
+
+.converter .input {
+	height: 100%;
+	border: none;
+	background: white;
+	border-radius: 20px;
+	margin: 20px 0;
+	padding: 0 10px;
+	font-size: 3em;
+	font-weight: bold;
+	color: rgb(80, 80, 80);
+	width: 70%;
+	margin-right: 20px;
+}
+
+.converter .currency-name {
+	color: white;
+	font-size: 2em;
+	text-align: right;
+	flex: 1;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./assets/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#FFFFFF" />
+		<meta name="author" content="Hari <manjaka.rajaonson@gmail.com>" />
+		<meta
+			name="description"
+			content="Convert currencies real-time with a simple, intuitive and well documented service."
+		/>
+		<meta
+			property="og:description"
+			content="Convert currencies real-time with a simple, intuitive and well documented service."
+		/>
+		<link rel="apple-touch-icon" href="./assets/favicon.ico" />
+		<link rel="manifest" href="./manifest.json" />
+		<meta property="og:image" content="./assets/volaconv-cover.png" />
+		<title>Vola converter</title>
+		<meta property="og:title" content="Vola converter" />
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body>
+		<noscript>Please enable Javascript.</noscript>
+		<div id="content">
+			<nav class="nav">
+				<div class="container">
+					<div class="nav__left">
+						<img class="logo" src="./assets/logo192.png" alt="Vola logo" />
+						<h1 class="title">Vola converter</h1>
+					</div>
+				</div>
+			</nav>
+			<div class="container">
+				<div class="converter">
+					<div class="converter__box">
+						<h2 class="converter__title">Today, 03 Aug. 2022</h2>
+						<div class="converter__group">
+							<div class="converter__item">
+								<select class="currency-full-name">
+									<option value="Malagasy Ariary">Malagasy Ariary</option>
+								</select>
+								<div class="separator"></div>
+								<form class="form">
+									<input class="input" type="number" min="1" value="4090" />
+									<p class="currency-name">MGA</p>
+								</form>
+							</div>
+							<div class="converter__item">
+								<select class="currency-full-name">
+									<option value="United States Dollar">United States Dollar</option>
+								</select>
+								<div class="separator"></div>
+								<form class="form">
+									<input class="input" type="number" min="1" value="1" />
+									<p class="currency-name">USD</p>
+								</form>
+							</div>
+							<button class="converter__convert">Run</button>
+						</div>
+					</div>
+				</div>
+				<div class="graph">
+					<div class="graph__head">
+						<h2 class="title">Currency evolution</h2>
+						<p class="currencies">
+							<span class="curr">MGA</span> VS <span class="curr">USD</span>
+						</p>
+					</div>
+					<div class="graph__separator"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

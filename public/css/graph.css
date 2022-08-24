@@ -1,0 +1,45 @@
+.graph {
+	margin-top: 40px;
+	background: white;
+	border-radius: 20px;
+	height: 550px;
+}
+
+.graph__head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.graph__head .title {
+	padding: 20px;
+}
+
+.graph__head .currencies {
+	margin-right: 20px;
+	font-weight: bold;
+	color: rgb(70, 70, 70);
+}
+
+.graph__head .curr {
+	padding: 5px 10px;
+	border-radius: 20px;
+	color: white;
+	overflow: hidden;
+	font-weight: normal;
+}
+
+.graph__head .curr:first-of-type {
+	background: rgb(60 69 175);
+}
+
+.graph__head .curr:last-of-type {
+	background: rgb(190, 50, 202);
+}
+
+.graph__separator {
+	width: calc(100% - 40px);
+	height: 1px;
+	background: rgb(200, 200, 200);
+	margin: auto;
+}

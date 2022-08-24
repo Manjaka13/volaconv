@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 1400px;
+	margin: auto;
+}
+
+@media only screen and (max-width: 1700px) {
+	.container {
+		width: 1000px;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.container {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.container {
+		width: calc(100% - 20px);
+	}
+}

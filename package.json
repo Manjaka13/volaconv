@@ -1,0 +1,23 @@
+{
+	"name": "volaconv",
+	"version": "0.1.0",
+	"description": "Convert currencies online",
+	"scripts": {
+		"start": "serve ./public"
+	},
+	"keywords": [
+		"convert",
+		"currency",
+		"online",
+		"real-time"
+	],
+	"author": "Hari <manjaka.rajaonson@gmail.com>",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^8.20.0",
+		"prettier": "^2.7.1"
+	},
+	"dependencies": {
+		"serve": "^13.0.4"
+	}
+}
